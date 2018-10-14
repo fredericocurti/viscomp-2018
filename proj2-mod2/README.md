@@ -1,5 +1,7 @@
 ### <b>Relatório Codebook - Frederico Curti </b><br/> Visão computacional Insper 2018 - Prof. Raul Ikeda
 ___
+**UPDATE:** - Link do arquivo pickle (training.p) :https://drive.google.com/file/d/1aQbNh-maSOC_d7JRqZPSLidujqC96uqP/view?usp=sharing
+
 ## Descrição do Projeto
 O objetivo desse projeto era a implementação do algoritmo *Real-time foreground–background segmentation using codebook model* proposto [neste artigo](/codebook.pdf) para segmentar uma imagem entre foreground e background. Ele consiste na criação e comparação de elementos chamados codebooks para cada pixel de  uma imagem de câmera estácionaria. Esses codebooks armazenam múltiplos codewords, a partir dos quais pode-se determinar o plano daquele pixel. 
 Além da implementação do algoritmo, foi necessário aplicar algum método livre para contar quantas pessoas transitavam por cada cena.
